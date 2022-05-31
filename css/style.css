@@ -1,0 +1,251 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#mainwrap{
+    height: 200px;
+    width: 1366px;
+    background-color: aqua;
+    margin: 0 auto;
+}
+#logobanner{
+    height: 200px;
+    width: 1366px;
+}
+.logo{
+    width: 150px;
+    height: 200px;
+    background-color: royalblue;
+    float: left;
+}
+.logo img{
+    width: 150px;
+    height: 200px;
+    /* background-color: royalblue; */
+    float: left;
+}
+.banner{
+    width: 1200px;
+    height: 200px;
+    background-color: rgb(94, 250, 4);
+    float: right;
+
+}
+.banner img{
+    width: 1216px;
+    height: 200px;
+    /* background-color: rgb(94, 250, 4); */
+    float: right;
+
+}
+/* #navbar{
+    width: auto;
+    height: 60px;
+    background-color:blue;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+#navbar::before{
+    content: "";
+    background-color:rgb(8, 152, 209);
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+#navbar ul{
+    display: flex;
+    font-family: 'Baloo Bhai', cursive;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#navbar ul li{ 
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 15px 50px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+    position: sticky;
+} */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    /* padding: 300px 20px; */
+}
+
+#navbar::before{
+    content: "";
+    background-color:rgb(8, 152, 209);
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+/* Navigation Bar: Logo and Image */
+/* #logo{
+    margin: 10px 34px;
+}
+
+#logo img{
+    height: 100px;
+    margin: 3px 6px;
+} */
+
+
+/* Navigation Bar: List Styling */
+
+#navbar ul{
+    display: flex;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+#navbar ul li{ 
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+#home{
+    width: 1366;
+    height: 768px;
+    margin: 0 auto;
+    background: url(https://source.unsplash.com/1368x768/?design,graphic);
+}
+#home img{
+    width: 1366px;
+    height: 800px;
+    margin: 0 auto;
+}
+.block{
+    width: auto;
+    height: 30px;
+    background-color:blue;
+}
+#contact{
+    position: relative;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.9;
+    background: url('../img/contact-us-g85634faf9_1920.jpg') no-repeat center center/cover;
+
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contact-box input, 
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+} 
+
+#contact-box form{
+    width: 40%;
+}
+
+#contact-box label{
+   font-size: 1.3rem;
+   font-family: 'Bree Serif', serif;
+
+}
+.h-primary{
+    font-family: 'Bree Serif', serif;
+    font-size: 3.8rem;
+    padding: 12px;
+    text-decoration: underline;
+}
+#slider{
+    overflow: hidden;
+}
+#slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+
+}
+#slider figure img{
+    width: 20%;
+    height: 600px;;
+    float: left;
+
+}
+@keyframes slider{
+    0%{
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    75%{
+        left: -200%;
+    }
+    95%{
+        left: -300%;
+    }
+}
+footer{
+    background: rgb(6, 189, 245);
+    /* background: rgb(82, 82, 79); */
+    color: white;
+    padding: 9px 20px;
+    font-size: 20px;
+}
+
+.center{
+    text-align: center;
+}
+
+
